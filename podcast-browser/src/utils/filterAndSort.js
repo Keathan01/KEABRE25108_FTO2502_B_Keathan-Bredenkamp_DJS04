@@ -1,4 +1,12 @@
-
+/**
+ * Filters and sorts podcast list based on UI state.
+ *
+ * @param {Array} podcasts - Full podcast dataset
+ * @param {string} searchTerm - Current search input
+ * @param {number[]} selectedGenres - List of selected genre IDs
+ * @param {string} sortOrder - Sort order ('newest', 'title-asc', 'title-desc')
+ * @returns {Array} - Filtered and sorted podcasts
+ */
 
 function filterByGenres(podcasts, selectedGenres) {
   if (selectedGenres.length === 0) return podcasts;

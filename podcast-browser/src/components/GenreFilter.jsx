@@ -1,3 +1,11 @@
+/**
+ * GenreFilter Component
+ *
+ * @param {Object} props
+ * @param {number[]} props.selectedGenres - Selected genre IDs
+ * @param {function} props.onChange - Handler to update selected genres
+ */
+
 import React, { useState } from "react";
 import { genres } from "../data/genres";
 

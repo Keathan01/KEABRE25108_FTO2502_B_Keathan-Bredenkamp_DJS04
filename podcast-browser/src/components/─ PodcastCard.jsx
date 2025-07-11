@@ -1,3 +1,10 @@
+/**
+ * PodcastCard Component
+ *
+ * @param {Object} props
+ * @param {Object} props.podcast - Podcast data
+ */
+
 import React from "react";
 import { mapGenreIdsToTitles } from "../utils/mapGenres";
 
