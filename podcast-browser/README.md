@@ -1,3 +1,14 @@
+## How to install 
+- Copy from github
+- Run npm install in terminal
+- Run npm start to start app
+- if any issues occure check downloaded package.json should be 5.0.1
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
