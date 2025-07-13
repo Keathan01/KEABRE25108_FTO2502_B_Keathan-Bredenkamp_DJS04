@@ -1,10 +1,14 @@
-
 .app {
   font-family: sans-serif;
   padding: 2rem;
   max-width: 1000px;
   margin: auto;
-   background: linear-gradient(to right ,rgb(41, 241, 198), rgb(46, 216, 193), rgba(76, 132, 236, 0.781));
+  background: linear-gradient(
+    to right,
+    rgb(41, 241, 198),
+    rgb(46, 216, 193),
+    rgba(76, 132, 236, 0.781)
+  );
 }
 
 .controls {
@@ -15,14 +19,15 @@
   flex-wrap: wrap;
   height: 90px;
   align-items: flex-start;
- 
 }
 
-input[type="text"], select, .filter button {
+input[type="text"],
+select,
+.filter button {
   padding: 0.7rem;
   font-size: 1rem;
-   border-radius: 28px;
-   border: none;
+  border-radius: 28px;
+  border: none;
 }
 
 .filter select {
